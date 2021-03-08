@@ -29,15 +29,15 @@
         >更新说明 : meteinfo和micapes文件读取顺序不一样 不确定怎么读取, 新加了一个按着左上往下的顺序读取的方式
 ```
 
-![对比](CB89DACA-A7C5-4647-9020-C9E01733AA63.png)
+![对比](img/CB89DACA-A7C5-4647-9020-C9E01733AA63.png)
 
-![格点](WechatIMG201.jpeg)
+![格点](img/WechatIMG201.jpeg)
 
-![边界](WechatIMG199.png)
+![边界](img/WechatIMG199.png)
 
-![站点](WechatIMG200.png)
+![站点](img/WechatIMG200.png)
 
-![验证](验证.png)
+![验证](img/验证.png)
 
 1. 通过站点绘图
 
