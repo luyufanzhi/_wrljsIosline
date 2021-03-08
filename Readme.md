@@ -8,6 +8,8 @@
 **不要用HBuilderX ! **
 **不要用HBuilderX ! **
 **如果你想看浏览器自己不停的刷新当我没说 **
+
+
 ```
 
 ```javascript
@@ -154,3 +156,10 @@
 > 
 >      2. 如果是给地图叠加的图层不需要渲染到指定的canvas标签里的情况, `_create`写成 `true` `_canvas`会返回一个canvas对象 通过叠加图片的方法, 添加 `_canvas.toDataURL()`的图片对象就可以了.
 > ```
+> 
+
+```textile
+vx: Priest_Qing   
+qq: 1057165641
+```
+
