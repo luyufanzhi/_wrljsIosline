@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="application/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="application/javascript" src="js/_readFile.jc.min.js"></script>
+		<script src="js/math.js"></script>
+		 <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak="></script> 
+		<script>
+		
+			
+			$(document).ready(function () {
+				let _read = new _readFileDiamond4('js/19101208.001' , "new"); 
+				_canvas = _read._draw({
+					_create : true,
+					 _tarwidth : 1500
+				} );
+				$('body').append(`<img src='${_canvas.toDataURL()}' />`);
+//				 var map = new BMap.Map("baiduMap");
+//				 var point = new BMap.Point(105.77, 36.08); 
+//				 map.centerAndZoom(point,12);
+//				 map.enableScrollWheelZoom();
+//				 
+//				 var NE = new BMap.Point(102,30);
+//			     var SW = new BMap.Point(113,41);
+//			     var groundOverlayOptions = {
+//				 	opacity: 1,
+//				 }
+//			     zxlayers = new BMap.GroundOverlay(new BMap.Bounds(NE, SW), groundOverlayOptions);
+//			     zxlayers.setImageURL(_canvas.toDataURL());
+//				 //zxlayers.setImageURL("img/下载.png");
+//			     map.addOverlay(zxlayers);
+			});
+			
+			
+			
+		</script>
+	</head>
+	<body>
+		 <div id="baiduMap" style="height: 800px; width: 800px;"></div> 
+	</body>
+</html>
